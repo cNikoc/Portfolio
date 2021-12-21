@@ -1999,6 +1999,15 @@ input, select, textarea {
 
 /* ////////////////////////// */
 
+body::-webkit-scrollbar {
+	width: 6px;
+}
+
+body::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background: #111;
+}
+
 .proyecto {
 	margin: 0px;
 	padding: 10px;
