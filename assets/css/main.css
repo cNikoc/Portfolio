@@ -1482,6 +1482,13 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 736px) {
+			.divIdioma {
+				text-align: right;
+				z-index: 1000; 
+				color: #fff; 
+				position: relative;
+				top: 1.5rem;
+			}
 
 			.row {
 				display: flex;
@@ -1999,6 +2006,27 @@ input, select, textarea {
 
 /* ////////////////////////// */
 
+.divIdioma {
+	text-align: left;
+	z-index: 1000; 
+	color: #fff; 
+	margin-top: -6rem; 
+	margin-bottom: 1.5rem;
+}
+
+.divIdioma > label {
+	cursor: pointer;
+	font-size: 9px;
+}
+
+.divIdioma > label > img {
+	outline: 1px solid #fff;
+}
+
+.divIdioma > input {
+	display: none;
+}
+
 body::-webkit-scrollbar {
 	width: 6px;
 }
@@ -2024,12 +2052,12 @@ body::-webkit-scrollbar-thumb {
 .up-arrow {
 	width: 2.5rem;
 	height: 2.5rem;
-	animation: bounce 0.4s alternate ease infinite;
+	animation: bounce 0.3s alternate ease infinite;
 }
 
 @keyframes bounce {
-    0% {transform: translateY(7px);}
-    100% {transform: translateY(-7px);}
+    0% {transform: translateY(4px);}
+    100% {transform: translateY(-4px);}
 }
 
 .sup {
@@ -2432,6 +2460,13 @@ body::-webkit-scrollbar-thumb {
 	}
 
 	@media screen and (max-width: 960px) {
+		.divIdioma {
+			text-align: right;
+			z-index: 1000; 
+			color: #fff; 
+			position: relative;
+			top: 1.5rem;
+		}
 
 		/* Basic */
 
@@ -2627,6 +2662,13 @@ body::-webkit-scrollbar-thumb {
 /* Mobile */
 
 	@media screen and (max-width: 736px) {
+		.divIdioma {
+			text-align: right;
+			z-index: 1000; 
+			color: #fff; 
+			position: relative;
+			top: 1.5rem;
+		}
 
 		/* Basic */
 
