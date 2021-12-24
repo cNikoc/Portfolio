@@ -2016,11 +2016,12 @@ input, select, textarea {
 
 .divIdioma > label {
 	cursor: pointer;
-	font-size: 9px;
+	font-size: 10px;
 }
 
 .divIdioma > label > img {
 	outline: 1px solid #fff;
+	margin-right: 0.4rem;
 }
 
 .divIdioma > input {
