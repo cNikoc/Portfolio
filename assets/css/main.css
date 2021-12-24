@@ -2029,12 +2029,11 @@ input, select, textarea {
 }
 
 body::-webkit-scrollbar {
-	width: 6px;
+	width: 5px;
 }
 
 body::-webkit-scrollbar-thumb {
-	border-radius: 10px;
-	background: #111;
+	background: #000;
 }
 
 .proyecto {
