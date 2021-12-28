@@ -2040,6 +2040,11 @@ body::-webkit-scrollbar-thumb {
 	margin: 0px;
 	padding: 10px;
 	border: 1px solid #99999934;
+	transition: border 0.3s;
+}
+
+.proyecto:hover {
+	border: 1px solid #e46565;
 }
 
 .scroll-up {
