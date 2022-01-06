@@ -2028,12 +2028,15 @@ input, select, textarea {
 	display: none;
 }
 
-body::-webkit-scrollbar {
-	width: 5px;
+*::-webkit-scrollbar {
+	width: 10px;
+	background: #222;
 }
 
-body::-webkit-scrollbar-thumb {
-	background: #000;
+*::-webkit-scrollbar-thumb {
+	background: #fff;
+	border-left: 1.5px solid #000;
+	border-radius: 50px;
 }
 
 .proyecto {
@@ -2071,6 +2074,34 @@ body::-webkit-scrollbar-thumb {
 
 .sup2 {
 	transform: scale(80%);
+}
+
+.certcont {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	background: #9992;
+	margin-bottom: 1rem;
+}
+
+.imgcont {
+	display: flex;
+	flex-direction: column;
+}
+
+.cert {
+	height: 140px;
+	margin: 20px;
+	transition: 2.5s;
+	box-shadow: 0 0 8px 0 #111;
+	cursor: pointer;
+}
+
+.cert:hover {
+	transform: scale(125%);
+	box-shadow: 0 0 20px 0 #333;
 }
 
 /* ////////////////////////// */
