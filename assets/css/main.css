@@ -2044,20 +2044,20 @@ input, select, textarea {
 	margin-bottom: 0.4rem;
 }
 
-.explab {
-	outline: 1.4px solid goldenrod;
-}
-
-.explab2 {
-	outline: 0.8px solid goldenrod;
-	padding: 0 4px 0 4px;
-}
-
 .proyecto {
 	margin: 0px;
 	padding: 10px;
 	border: 1px solid #99999934;
 	transition: border 0.3s;
+}
+
+.explab {
+	border: 1px solid goldenrod;
+}
+
+.explab2 {
+	border: 0.8px solid goldenrod;
+	padding: 0 4px 0 4px;
 }
 
 .scroll-up {
