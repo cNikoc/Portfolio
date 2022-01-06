@@ -2052,13 +2052,11 @@ input, select, textarea {
 }
 
 .explab {
-	border: 1px solid #daa520;
-	box-shadow: inset 0 0 1rem 0 #ecc86dad;
+	border: 5px double #daa520;
 }
 
 .explab2 {
-	border: 0.8px solid #daa520;
-	box-shadow: inset 0 0 0.3rem 0 #ecc86dad;
+	border: 1.4px solid #daa520;
 	padding: 0 4px 0 4px;
 }
 
