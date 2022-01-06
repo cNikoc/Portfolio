@@ -2039,6 +2039,11 @@ input, select, textarea {
 	border-radius: 50px;
 }
 
+.title {
+	background: #ffffffc1;
+	margin-bottom: 0.4rem;
+}
+
 .proyecto {
 	margin: 0px;
 	padding: 10px;
@@ -2046,9 +2051,9 @@ input, select, textarea {
 	transition: border 0.3s;
 }
 
-.proyecto:hover {
+/* .proyecto:hover {
 	border: 1px solid #e46565;
-}
+} */
 
 .scroll-up {
 	position: fixed;
