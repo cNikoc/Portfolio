@@ -2081,7 +2081,7 @@ input, select, textarea {
 .certcont {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
+	justify-content: space-around;
 	align-items: center;
 	align-content: center;
 	background: #9992;
@@ -2094,7 +2094,7 @@ input, select, textarea {
 }
 
 .cert {
-	height: 140px;
+	height: 160px;
 	margin: 20px;
 	transition: 2.5s;
 	box-shadow: 0 0 8px 0 #111;
