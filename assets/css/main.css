@@ -2019,6 +2019,10 @@ input, select, textarea {
 	font-size: 10px;
 }
 
+.divIdioma > label:hover {
+	text-decoration: underline;
+}
+
 .divIdioma > label > img {
 	outline: 1px solid #fff;
 	margin-right: 0.4rem;
@@ -2029,13 +2033,12 @@ input, select, textarea {
 }
 
 *::-webkit-scrollbar {
-	width: 10px;
-	background: #222;
+	width: 9px;
+	background: #fff;
 }
 
 *::-webkit-scrollbar-thumb {
-	background: #fff;
-	border-left: 1.5px solid #000;
+	background: #222729;
 	border-radius: 50px;
 }
 
@@ -2052,11 +2055,12 @@ input, select, textarea {
 }
 
 .explab {
-	border: 4px double #daa520;
+	border: 2px double #daa520;
+	background: #ffd9001c;
 }
 
 .explab2 {
-	border: 1.4px solid #daa520;
+	border: 1px solid #daa520;
 	padding: 0 4px 0 4px;
 }
 
