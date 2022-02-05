@@ -2099,7 +2099,7 @@ input, select, textarea {
 
 .cert {
 	height: 140px;
-	margin: 10px;
+	margin: 14px;
 	transition: 2.5s;
 	box-shadow: 0 0 8px 0 #111;
 	cursor: pointer;
