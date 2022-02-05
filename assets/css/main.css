@@ -2113,8 +2113,9 @@ input, select, textarea {
 .video-cont {
 	width: 100%;
 	height: 15rem;
-	background: #1a1f20;
+	background: #0f1213;
 	border-radius: 30px;
+	margin-bottom: 2.2rem;
 }
 
 .video {
