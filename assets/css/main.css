@@ -2110,6 +2110,17 @@ input, select, textarea {
 	box-shadow: 0 0 20px 0 #333;
 }
 
+.video-cont {
+	width: 100%;
+	height: 15rem;
+	background: #1a1f20;
+	border-radius: 30px;
+}
+
+.video {
+	height: 15rem;
+}
+
 /* ////////////////////////// */
 
 
