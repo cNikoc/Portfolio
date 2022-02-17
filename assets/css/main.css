@@ -2016,9 +2016,9 @@ input, select, textarea {
 
 .divIdioma > label {
 	cursor: pointer;
-	font-size: 12px;
+	font-size: 10px;
 	color: transparent;
-	transition: 1s;
+	transition: color 1s;
 }
 
 .divIdioma > label:hover {
