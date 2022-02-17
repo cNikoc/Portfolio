@@ -2016,11 +2016,13 @@ input, select, textarea {
 
 .divIdioma > label {
 	cursor: pointer;
-	font-size: 10px;
+	font-size: 12px;
+	color: transparent;
+	transition: 1s;
 }
 
 .divIdioma > label:hover {
-	text-decoration: underline;
+	color: #fff;
 }
 
 .divIdioma > label > img {
@@ -2073,7 +2075,7 @@ input, select, textarea {
 }
 
 @keyframes bounce {
-    0% {transform: translateY(4px);}
+    0% {transform: translateY(2px);}
     100% {transform: translateY(-4px);}
 }
 
