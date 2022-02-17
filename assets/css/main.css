@@ -2055,13 +2055,8 @@ input, select, textarea {
 }
 
 .explab {
-	border: 2px double #daa520;
-	background: #ffd9001c;
-}
-
-.explab2 {
-	border: 1px solid #daa520;
-	padding: 0 4px 0 4px;
+	border: 1.5px solid #daa520;
+	/* background: #ffd9001c; */
 }
 
 .scroll-up {
