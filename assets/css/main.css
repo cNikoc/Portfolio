@@ -2083,9 +2083,10 @@ input, select, textarea {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
-	align-items: center;
-	align-content: center;
+	align-items: space-evenly;
+	align-content: space-evenly;
 	background: #9992;
+	padding: 20px;
 	margin-bottom: 1rem;
 }
 
@@ -2096,7 +2097,7 @@ input, select, textarea {
 
 .cert {
 	height: 140px;
-	margin: 14px;
+	margin: 25px;
 	transition: 2.5s;
 	box-shadow: 0 0 8px 0 #111;
 	cursor: pointer;
