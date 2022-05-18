@@ -2035,13 +2035,18 @@ input, select, textarea {
 }
 
 *::-webkit-scrollbar {
-	width: 9px;
+	width: 10px;
 	background: #fff;
 }
 
 *::-webkit-scrollbar-thumb {
 	background: #222729;
 	border-radius: 50px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+	background: #2d3236;
+	border-left: 2px solid rgb(184, 86, 86);
 }
 
 .title {
