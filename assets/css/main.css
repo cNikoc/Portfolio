@@ -2052,6 +2052,12 @@ input, select, textarea {
 	border-left: 2px solid rgb(184, 86, 86);
 }
 
+.puesto {
+	font-weight: bold;
+	font-style: italic;
+	font-size: smaller;
+}
+
 .title {
 	background: #ffffffc1;
 	margin-bottom: 0.4rem;
