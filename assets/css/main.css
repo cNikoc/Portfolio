@@ -2058,6 +2058,11 @@ input, select, textarea {
 	font-size: smaller;
 }
 
+.descripcion {
+	margin: 0 20px;
+	text-align: left;
+}
+
 .title {
 	background: #ffffffc1;
 	margin-bottom: 0.4rem;
