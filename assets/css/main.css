@@ -2043,13 +2043,13 @@ input, select, textarea {
 
 *::-webkit-scrollbar-thumb {
 	background: #9999;
-	background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo6mJN2CA-4gY6PcNFv_O_fzFZGHQ_5jWiear_YBFr-aGDxMHn6IXZy2xj5_jP_D_JSU4&usqp=CAU');
+	background: url('../../images/thumb.jpg');
 	background-size: cover;
 	border-radius: 50px;
 }
 
 *::-webkit-scrollbar-thumb:hover {
-	background: url('https://us.123rf.com/450wm/msiuhong/msiuhong2002/msiuhong200200994/140123173-este-es-un-patr%C3%B3n-de-rayas-horizontales-cl%C3%A1sico-adecuado-para-estampado-de-camisetas-textiles-jersey.jpg?ver=6');
+	background: url('../../images/thumbhover.webp');
 	background-size: cover;
 }
 
