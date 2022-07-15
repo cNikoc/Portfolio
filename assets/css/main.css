@@ -2045,11 +2045,10 @@ input, select, textarea {
 	background: #9999;
 	background: url('../../images/thumb.jpg');
 	background-size: cover;
-	border-radius: 50px;
 }
 
 *::-webkit-scrollbar-thumb:hover {
-	background: url('../../images/thumbhover.webp');
+	background: url('../../images/thumbhv.webp');
 	background-size: cover;
 }
 
