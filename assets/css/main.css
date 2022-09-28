@@ -2009,6 +2009,21 @@ input, select, textarea {
 /* ////////////////////////////////////////////////////////////////////////////////////////// */
 /* ////////////////////////////////////////////////////////////////////////////////////////// */
 
+*::-webkit-scrollbar {
+	width: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+	background: #9999;
+	background: url('../../images/thumb.jpg');
+	background-size: cover;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+	background: url('../../images/thumbhv.webp');
+	background-size: cover;
+}
+
 .divIdioma {
 	text-align: left;
 	z-index: 1000; 
@@ -2037,19 +2052,8 @@ input, select, textarea {
 	display: none;
 }
 
-*::-webkit-scrollbar {
-	width: 10px;
-}
-
-*::-webkit-scrollbar-thumb {
-	background: #9999;
-	background: url('../../images/thumb.jpg');
-	background-size: cover;
-}
-
-*::-webkit-scrollbar-thumb:hover {
-	background: url('../../images/thumbhv.webp');
-	background-size: cover;
+#top > .container {
+	text-shadow: 1.2px 1.2px 5px red;
 }
 
 .puesto {
