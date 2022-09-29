@@ -2014,14 +2014,12 @@ input, select, textarea {
 }
 
 *::-webkit-scrollbar-thumb {
-	background: #9999;
-	background: url('../../images/thumb.jpg');
-	background-size: cover;
+	background: #222;
+	border-radius: 30px;
 }
 
 *::-webkit-scrollbar-thumb:hover {
-	background: url('../../images/thumbhv.webp');
-	background-size: cover;
+	background: #000
 }
 
 .divIdioma {
