@@ -2079,8 +2079,12 @@ input, select, textarea {
 
 .explab {
 	/* border: 1.5px solid #daa520; */
-	border: 3px ridge rgb(255, 242, 0)
+	border: 3px ridge rgb(255, 242, 0);
 	/* background: #ffd9001c; */
+}
+
+.project {
+	border: 3px ridge #9993;
 }
 
 .scroll-up {
